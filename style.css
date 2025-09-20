@@ -1,0 +1,189 @@
+
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: 'Segoe UI', 'Montserrat', Arial, sans-serif;
+	background: linear-gradient(120deg, #f8fafc 0%, #e0e7ff 100%);
+	margin: 0;
+	padding: 0;
+	color: #232946;
+}
+
+header {
+	background: linear-gradient(90deg, #6366f1 0%, #7c3aed 100%);
+	color: #fff;
+	padding: 1.5rem 0 1rem 0;
+	text-align: center;
+	box-shadow: 0 2px 12px rgba(44, 62, 80, 0.08);
+}
+
+header h1 {
+	font-size: 2.5rem;
+	letter-spacing: 2px;
+	margin-bottom: 0.5rem;
+	font-weight: 700;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	margin-top: 0.5rem;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	gap: 1.5rem;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.1rem;
+	font-weight: 500;
+	padding: 0.3rem 0.8rem;
+	border-radius: 4px;
+	transition: background 0.2s;
+}
+nav ul li a:hover {
+	background: #e0e7ff;
+	color: #7c3aed;
+}
+
+.wallet-connect button {
+	background: #fff;
+	color: #7c3aed;
+	border: none;
+	padding: 0.5rem 1.2rem;
+	border-radius: 4px;
+	font-size: 1rem;
+	font-weight: 600;
+	cursor: pointer;
+	box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+	transition: background 0.2s, color 0.2s;
+}
+.wallet-connect button:hover {
+	background: #7c3aed;
+	color: #fff;
+}
+
+main {
+	max-width: 1200px;
+	margin: 2rem auto 0 auto;
+	padding: 0 1rem;
+}
+
+.hero {
+	background: #fff;
+	border-radius: 12px;
+	box-shadow: 0 4px 24px rgba(44, 62, 80, 0.08);
+	padding: 2rem 2.5rem;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+.hero h2 {
+	font-size: 2rem;
+	font-weight: 600;
+	margin-bottom: 1.2rem;
+}
+.search-container {
+	display: flex;
+	justify-content: center;
+	gap: 0.5rem;
+	margin-top: 1rem;
+}
+.search-container input[type="text"] {
+	padding: 0.7rem 1rem;
+	border: 1px solid #7c3aed;
+	border-radius: 6px;
+	font-size: 1rem;
+	width: 300px;
+}
+.search-container button {
+	background: #7c3aed;
+	color: #fff;
+	border: none;
+	padding: 0.7rem 1.2rem;
+	border-radius: 6px;
+	font-size: 1rem;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+.search-container button:hover {
+	background: #6366f1;
+}
+
+.nft-section {
+	margin-bottom: 2.5rem;
+}
+.nft-section h2 {
+	font-size: 1.5rem;
+	color: #7c3aed;
+	margin-bottom: 1rem;
+	font-weight: 600;
+}
+.nft-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: 1.5rem;
+}
+.nft-card {
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 2px 12px rgba(44, 62, 80, 0.08);
+	padding: 1.2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: box-shadow 0.2s;
+}
+.nft-card:hover {
+	box-shadow: 0 6px 24px rgba(44, 62, 80, 0.16);
+}
+.nft-card img {
+	width: 100%;
+	max-width: 180px;
+	border-radius: 8px;
+	margin-bottom: 1rem;
+}
+.nft-card .nft-title {
+	font-size: 1.1rem;
+	font-weight: 600;
+	color: #232946;
+	margin-bottom: 0.5rem;
+	text-align: center;
+}
+.nft-card .nft-creator {
+	font-size: 0.95rem;
+	color: #6366f1;
+	margin-bottom: 0.5rem;
+}
+.nft-card .nft-category {
+	font-size: 0.9rem;
+	color: #7c3aed;
+	margin-bottom: 0.5rem;
+}
+.nft-card .nft-actions {
+	margin-top: 0.7rem;
+	display: flex;
+	gap: 0.5rem;
+}
+.nft-card button {
+	background: #6366f1;
+	color: #fff;
+	border: none;
+	padding: 0.4rem 0.9rem;
+	border-radius: 4px;
+	font-size: 0.95rem;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+.nft-card button:hover {
+	background: #7c3aed;
+}
